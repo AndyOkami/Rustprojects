@@ -1,3 +1,8 @@
+/* A basic snakegame made in rust.
+ * Control the snake with WASD
+ * Press any other key to exit
+ */
+
 extern crate piston_window;
 extern crate rand;
 

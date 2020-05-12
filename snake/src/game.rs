@@ -1,3 +1,6 @@
+/** This handles the gamestate of the snakegame
+ */
+
 use piston_window::*;
 use piston_window::types::Color;
 
@@ -41,6 +44,7 @@ impl Game {
         }
     }
 
+    // If key is pressed, check that it's valid and move to wanted direction
     pub fn key_pressed(&mut self, key: Key) {
         if self.game_over {
             return;
@@ -61,6 +65,7 @@ impl Game {
         self.update_snake(dir);
     }
 
+    // Draws the game area
     pub fn draw(&self, con: &Context, g: &mut G2d) {
         self.snake.draw(con, g);
 
@@ -68,6 +73,7 @@ impl Game {
             draw_block(FOOD_COLOR, self.food_x, self.food_y, con, g);
         }
 
+        // Drawing the border
         draw_rectangle(BORDER_COLOR, 0, 0, self.width, 1, con, g);
         draw_rectangle(BORDER_COLOR, 0, self.height-1, self.width, 1, con, g);
         draw_rectangle(BORDER_COLOR, 0, 0, 1, self.height, con, g);
@@ -78,6 +84,7 @@ impl Game {
         }
     }
 
+    // Update game
     pub fn update(&mut self, delta_time: f64) {
         self.waiting_time += delta_time;
 
@@ -97,6 +104,7 @@ impl Game {
         }
     }
 
+    // Check if food and snake are colliding
     fn check_eating(&mut self) {
         let (head_x, head_y): (i32, i32) = self.snake.head_position();
         if self.food_exists && self.food_x == head_x && self.food_y == head_y {
@@ -105,6 +113,7 @@ impl Game {
         }
     }
 
+    // Check that snake didn't hit a wall or itself. Returns false if it died
     fn check_if_snake_alive(&self, dir: Option<Direction>) -> bool {
         let (next_x, next_y) = self.snake.next_head(dir);
 
@@ -115,6 +124,7 @@ impl Game {
         next_x > 0 && next_y > 0 && next_x < self.width-1 && next_y < self.height-1
     }
 
+    // Adds food to the game grid
     fn add_food(&mut self) {
         let mut rng = thread_rng();
 
@@ -130,6 +140,7 @@ impl Game {
         self.food_exists = true;
     }
 
+    // Updates the snakes state in the game
     fn update_snake(&mut self, dir: Option<Direction>) {
         if self.check_if_snake_alive(dir) {
             self.snake.move_forward(dir);
@@ -140,6 +151,7 @@ impl Game {
         self.waiting_time = 0.0;
     }
 
+    // Restart the game with the starting values
     fn restart(&mut self) {
         self.snake = Snake::new(2,2);
         self.waiting_time = 0.0;

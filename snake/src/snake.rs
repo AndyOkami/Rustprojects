@@ -1,3 +1,6 @@
+/**This module handles the actions of the snake
+ */
+
 use std::collections::LinkedList;
 use piston_window::{Context, G2d};
 use piston_window::types::Color;
@@ -6,6 +9,7 @@ use crate::draw::draw_block;
 
 const SNAKE_COLOR: Color = [0.00, 0.80, 0.00, 1.0];
 
+// The possible directions
 #[derive(Copy, Clone, PartialEq)]
 pub enum Direction {
     Up,
@@ -15,6 +19,10 @@ pub enum Direction {
 }
 
 impl Direction {
+
+    /* Check that the snake is not going to the
+     * opposite direction.
+     */
     pub fn opposite(&self) -> Direction {
         match *self {
             Direction::Up => Direction::Down,
@@ -31,6 +39,11 @@ struct Block {
     y: i32,
 }
 
+/* Snake struct
+ * Direction: direction of the snake
+ * body: Where the snakeblocks are stored
+ * tail 
+ */
 pub struct Snake {
     direction: Direction,
     body: LinkedList<Block>,
@@ -131,11 +144,13 @@ impl Snake {
         }
     }
 
+    // Increases tails size
     pub fn restore_tail(&mut self) {
         let blk = self.tail.clone().unwrap();
         self.body.push_back(blk);
     }
 
+    // If the tail overlaps, send true
     pub fn overlap_tail(&self, x: i32, y: i32) -> bool {
         let mut ch = 0;
         for block in &self.body {
