@@ -1,0 +1,16 @@
+/home/andy/Rustprojects/snake/target/rls/debug/deps/gfx_core-1cd546b610c8b4c1.rmeta: /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/lib.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/buffer.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/command.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/dummy.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/factory.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/format.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/handle.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/mapping.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/memory.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/pso.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/shade.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/texture.rs
+
+/home/andy/Rustprojects/snake/target/rls/debug/deps/gfx_core-1cd546b610c8b4c1.d: /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/lib.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/buffer.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/command.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/dummy.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/factory.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/format.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/handle.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/mapping.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/memory.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/pso.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/shade.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/texture.rs
+
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/lib.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/buffer.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/command.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/dummy.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/factory.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/format.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/handle.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/mapping.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/memory.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/pso.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/shade.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.9.2/src/texture.rs:

@@ -1,0 +1,13 @@
+/home/andy/Rustprojects/snake/target/rls/debug/deps/quote-c960794c06698293.rmeta: /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/lib.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ext.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/format.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ident_fragment.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/to_tokens.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/runtime.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/spanned.rs
+
+/home/andy/Rustprojects/snake/target/rls/debug/deps/libquote-c960794c06698293.rlib: /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/lib.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ext.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/format.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ident_fragment.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/to_tokens.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/runtime.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/spanned.rs
+
+/home/andy/Rustprojects/snake/target/rls/debug/deps/quote-c960794c06698293.d: /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/lib.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ext.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/format.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ident_fragment.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/to_tokens.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/runtime.rs /home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/spanned.rs
+
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/lib.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ext.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/format.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/ident_fragment.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/to_tokens.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/runtime.rs:
+/home/andy/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.4/src/spanned.rs:
